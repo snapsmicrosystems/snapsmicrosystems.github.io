@@ -10155,3 +10155,17 @@ header.masthead h1 {
 .fa-check-circle {
   color: #18d26e;
 }
+
+/* Add this CSS */
+.col-lg-4.col-md-6 .mt-5 {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+  border-radius: 8px; /* Optional: Rounds the corners */
+  padding: 20px; /* Optional: Adds padding inside the card */
+  background-color: #ffffff; /* Background color for the card */
+  transition: transform 0.3s ease; /* Adds smooth hover effect */
+}
+
+.col-lg-4.col-md-6 .mt-5:hover {
+  transform: scale(1.05); /* Optional: Grows slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
